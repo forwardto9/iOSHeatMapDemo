@@ -1,0 +1,8 @@
+
+*.xcuserstate
+
+*.xcbkptlist
+
+*.xcscheme
+
+HeatMapDemo/HeatMapDemo.xcodeproj/xcuserdata/uwei.xcuserdatad/xcschemes/xcschememanagement.plist
