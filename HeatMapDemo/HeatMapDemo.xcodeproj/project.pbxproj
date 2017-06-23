@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C21C720C1EFCF99100BB966F /* UIScrollView+Scrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = C21C720B1EFCF99100BB966F /* UIScrollView+Scrolling.m */; };
+		C21C720F1EFCF9B500BB966F /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = C21C720E1EFCF9B500BB966F /* NSObject+Swizzling.m */; };
 		C2E2B6C01EF3C823007A0DF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E2B6BF1EF3C823007A0DF5 /* main.m */; };
 		C2E2B6C31EF3C823007A0DF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E2B6C21EF3C823007A0DF5 /* AppDelegate.m */; };
 		C2E2B6C61EF3C823007A0DF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E2B6C51EF3C823007A0DF5 /* ViewController.m */; };
@@ -20,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C21C720A1EFCF99100BB966F /* UIScrollView+Scrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Scrolling.h"; sourceTree = "<group>"; };
+		C21C720B1EFCF99100BB966F /* UIScrollView+Scrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Scrolling.m"; sourceTree = "<group>"; };
+		C21C720D1EFCF9B500BB966F /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		C21C720E1EFCF9B500BB966F /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
 		C2E2B6BB1EF3C823007A0DF5 /* HeatMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeatMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E2B6BF1EF3C823007A0DF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2E2B6C11EF3C823007A0DF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,6 +117,10 @@
 				C2E2B6E11EF3CFCD007A0DF5 /* UIViewController+TopObject.m */,
 				C2E2B6E21EF3CFCD007A0DF5 /* UIWindow+HitTest.h */,
 				C2E2B6E31EF3CFCD007A0DF5 /* UIWindow+HitTest.m */,
+				C21C720A1EFCF99100BB966F /* UIScrollView+Scrolling.h */,
+				C21C720B1EFCF99100BB966F /* UIScrollView+Scrolling.m */,
+				C21C720D1EFCF9B500BB966F /* NSObject+Swizzling.h */,
+				C21C720E1EFCF9B500BB966F /* NSObject+Swizzling.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -190,9 +200,11 @@
 				C2E2B6E51EF3CFCD007A0DF5 /* UIWindow+HitTest.m in Sources */,
 				C2E2B6DD1EF3C97E007A0DF5 /* IBHeatMap.m in Sources */,
 				C2E2B6E41EF3CFCD007A0DF5 /* UIViewController+TopObject.m in Sources */,
+				C21C720C1EFCF99100BB966F /* UIScrollView+Scrolling.m in Sources */,
 				C2E2B6DE1EF3C97E007A0DF5 /* IBMatrix.m in Sources */,
 				C2E2B6C61EF3C823007A0DF5 /* ViewController.m in Sources */,
 				C2E2B6C31EF3C823007A0DF5 /* AppDelegate.m in Sources */,
+				C21C720F1EFCF9B500BB966F /* NSObject+Swizzling.m in Sources */,
 				C2E2B6C01EF3C823007A0DF5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +364,7 @@
 				C2E2B6D41EF3C823007A0DF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

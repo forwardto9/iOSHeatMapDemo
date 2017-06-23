@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [(UIScrollView *)self.view setContentSize:CGSizeMake(CGRectGetWidth(self.view.bounds), 1000)];
 }
 
 
